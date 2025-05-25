@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feelink - Entry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex bg-[#f9f5f6] text-[#0b095b] min-h-screen">
+    <!-- Sidebar -->
+    <aside class="w-25 bg-cyan-100 p-4 flex flex-col justify-between">
+      <div>
+        <div class="text-xl font-bold text-cyan-700 mb-6">Feelink</div>
+        <nav class="space-y-4">
+          <a
+            href="/dashboard.html"
+            class="flex items-center space-x-2 text-cyan-700 hover:text-cyan-900"
+          >
+            <span>📊</span><span>Dashboard</span>
+          </a>
+          <a
+            href="/entry.html"
+            class="flex items-center space-x-2 text-cyan-700 hover:text-cyan-900"
+          >
+            <span>📝</span><span>Entry</span>
+          </a>
+          <a
+            href="/history.html"
+            class="flex items-center space-x-2 text-cyan-700 hover:text-cyan-900"
+          >
+            <span>📅</span><span>History</span>
+          </a>
+        </nav>
+      </div>
+      <div class="space-y-4">
+        <a
+          href="/settings.html"
+          class="flex items-center space-x-2 text-cyan-700 hover:text-cyan-900"
+        >
+          <span>⚙️</span><span>Settings</span>
+        </a>
+        <div class="flex items-center space-x-2 text-sm text-cyan-700">
+          <span>👤</span>
+          <div>
+            <div>Your Name</div>
+            <div class="text-xs text-gray-600">name@email.com</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-10">
+      <h2 class="text-3xl font-bold mb-6">
+        Entry your bla bla bla feeling apa la
+      </h2>
+      <hr class="mb-8" />
+
+      <form class="space-y-6 max-w-3xl">
+        <!-- Repeat this block for each question -->
+        <div>
+          <p class="font-semibold mb-1">Question 1</p>
+          <p class="text-sm text-gray-700 mb-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            molestie quis velit nec scelerisque. Morbi non lacinia nulla.
+          </p>
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-full bg-blue-100 border border-blue-300 rounded-md p-3 outline-none focus:ring-2 focus:ring-blue-400"
+          />
+        </div>
+
+        <div>
+          <p class="font-semibold mb-1">Question 1</p>
+          <p class="text-sm text-gray-700 mb-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            molestie quis velit nec scelerisque. Morbi non lacinia nulla.
+          </p>
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-full bg-blue-100 border border-blue-300 rounded-md p-3 outline-none focus:ring-2 focus:ring-blue-400"
+          />
+        </div>
+
+        <div>
+          <p class="font-semibold mb-1">Question 1</p>
+          <p class="text-sm text-gray-700 mb-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            molestie quis velit nec scelerisque. Morbi non lacinia nulla.
+          </p>
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-full bg-blue-100 border border-blue-300 rounded-md p-3 outline-none focus:ring-2 focus:ring-blue-400"
+          />
+        </div>
+
+        <div>
+          <p class="font-semibold mb-1">Question 1</p>
+          <p class="text-sm text-gray-700 mb-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            molestie quis velit nec scelerisque. Morbi non lacinia nulla.
+          </p>
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-full bg-blue-100 border border-blue-300 rounded-md p-3 outline-none focus:ring-2 focus:ring-blue-400"
+          />
+        </div>
+
+        <button
+          type="submit"
+          class="bg-[#0b095b] text-white px-6 py-2 rounded hover:bg-indigo-900"
+        >
+          Submit your answer
+        </button>
+      </form>
+    </main>
+  </body>
+</html>

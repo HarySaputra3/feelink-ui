@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>History - Feelink</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex min-h-screen bg-white">
+    <!-- Sidebar -->
+    <aside class="w-25 bg-cyan-100 p-4 flex flex-col justify-between">
+      <div>
+        <div class="text-xl font-bold text-cyan-700 mb-6">Feelink</div>
+        <nav class="space-y-4">
+          <a
+            href="/dashboard.html"
+            class="flex items-center space-x-2 text-cyan-700 hover:text-cyan-900"
+          >
+            <span>📊</span><span>Dashboard</span>
+          </a>
+          <a
+            href="/entry.html"
+            class="flex items-center space-x-2 text-cyan-700 hover:text-cyan-900"
+          >
+            <span>📝</span><span>Entry</span>
+          </a>
+          <a
+            href="/history.html"
+            class="flex items-center space-x-2 text-cyan-700 hover:text-cyan-900"
+          >
+            <span>📅</span><span>History</span>
+          </a>
+        </nav>
+      </div>
+      <div class="space-y-4">
+        <a
+          href="/settings.html"
+          class="flex items-center space-x-2 text-cyan-700 hover:text-cyan-900"
+        >
+          <span>⚙️</span><span>Settings</span>
+        </a>
+        <div class="flex items-center space-x-2 text-sm text-cyan-700">
+          <span>👤</span>
+          <div>
+            <div>Your Name</div>
+            <div class="text-xs text-gray-600">name@email.com</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Content -->
+    <main class="flex-1 p-10">
+      <h1 class="text-2xl font-bold mb-6">Your History</h1>
+      <table class="w-full border border-gray-300">
+        <thead class="bg-blue-100">
+          <tr>
+            <th class="border px-4 py-2 text-left">#</th>
+            <th class="border px-4 py-2 text-left">Date</th>
+            <th class="border px-4 py-2 text-left">Entry</th>
+            <th class="border px-4 py-2 text-left">Emotion</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-4 py-2">1</td>
+            <td class="border px-4 py-2">2025-05-24</td>
+            <td class="border px-4 py-2">Felt okay today</td>
+            <td class="border px-4 py-2">😊 Happy</td>
+          </tr>
+          <!-- More rows -->
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
